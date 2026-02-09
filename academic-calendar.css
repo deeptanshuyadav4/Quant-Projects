@@ -1,0 +1,63 @@
+/* ================= GLOBAL STYLES ================= */
+/* Reset browser default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* ================= HEADER ================= */
+.page-header {
+    background-color: #1f2933;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+/* ================= CALENDAR SECTION ================= */
+.calendar-section {
+    padding: 40px;
+    background-color: #f4f6f8;
+}
+
+/* Table styling */
+.calendar-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+/* Table borders and spacing */
+.calendar-table th,
+.calendar-table td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+}
+
+/* Table header */
+.calendar-table th {
+    background-color: #e5e7eb;
+}
+
+/* ================= FOOTER ================= */
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #1f2933;
+    color: white;
+}
+
+/* ================= RESPONSIVE DESIGN ================= */
+@media (max-width: 600px) {
+    .calendar-section {
+        padding: 15px;
+    }
+
+    .calendar-table th,
+    .calendar-table td {
+        font-size: 14px;
+    }
+}
+
