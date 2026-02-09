@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Makes the layout responsive on all devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Portfolio Dashboard</title>
+
+    <!-- Linking external stylesheet -->
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+
+    <!-- ================= SIDEBAR ================= -->
+    <!-- Sidebar navigation for dashboard layout -->
+    <aside class="sidebar">
+        <h2 class="sidebar-title">My Dashboard</h2>
+        <ul class="sidebar-menu">
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </aside>
+
+    <!-- ================= MAIN CONTENT ================= -->
+    <main class="main-content">
+
+        <!-- ===== PROFILE SECTION ===== -->
+        <section id="profile" class="section">
+            <h1>Deeptanshu Yadav</h1>
+            <p>B.Tech Computer Science Engineering (1st Year)</p>
+            <p>
+                Aspiring Quantitative Finance professional with strong interest in
+                Web Development, Programming, and Technology.
+            </p>
+        </section>
+
+        <!-- ===== SKILLS SECTION ===== -->
+        <section id="skills" class="section">
+            <h2>Technical Skills</h2>
+
+            <div class="skill-box">
+                <p>HTML5</p>
+                <div class="skill-bar html"></div>
+            </div>
+
+            <div class="skill-box">
+                <p>CSS3</p>
+                <div class="skill-bar css"></div>
+            </div>
+
+            <div class="skill-box">
+                <p>Python</p>
+                <div class="skill-bar python"></div>
+            </div>
+
+            <div class="skill-box">
+                <p>Git & GitHub</p>
+                <div class="skill-bar git"></div>
+            </div>
+        </section>
+
+        <!-- ===== PROJECTS SECTION ===== -->
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+
+            <div class="project-card">
+                <h3>E-Commerce Website</h3>
+                <p>
+                    Designed a responsive e-commerce website using HTML and CSS
+                    featuring product listings, cart UI, and login page.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>
+                    Created a personal portfolio dashboard to showcase skills,
+                    projects, and education details.
+                </p>
+            </div>
+        </section>
+
+        <!-- ===== EDUCATION SECTION ===== -->
+        <section id="education" class="section">
+            <h2>Education</h2>
+
+            <table class="education-table">
+                <tr>
+                    <th>Course</th>
+                    <th>Institute</th>
+                    <th>Year</th>
+                </tr>
+                <tr>
+                    <td>B.Tech (CSE)</td>
+                    <td>ABES Engineering College</td>
+                    <td>2025 - 2029</td>
+                </tr>
+                <tr>
+                    <td>Senior Secondary</td>
+                    <td>CBSE Board</td>
+                    <td>2024</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- ===== CONTACT SECTION ===== -->
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+
+            <form class="contact-form">
+                <label>Name</label>
+                <input type="text" placeholder="Enter your name" required>
+
+                <label>Email</label>
+                <input type="email" placeholder="Enter your email" required>
+
+                <label>Message</label>
+                <textarea rows="4" placeholder="Your message"></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+
+</body>
+</html>
